@@ -1,1 +1,1 @@
-Blog Luna is a simple application for displaying, creating, editing, and deleting astronomy-related posts. It is built using React, Supabase, and Material UI, and it's suitable for anyone interested in stars, galaxies, and the universe.
+
