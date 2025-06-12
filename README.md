@@ -1,2 +1,1 @@
-# luna-blog-app
-Blog luna هو تطبيق بسيط لعرض وإنشاء وتحرير وحذف المقالات المتعلقة بالفضاء والفلك. تم بناؤه باستخدام React وSupabase وواجهة مستخدم بـ Material UI، ومناسب لأي شخص مهتم بالنجوم والمجرات وعلوم الكون
+Blog Luna is a simple application for displaying, creating, editing, and deleting astronomy-related posts. It is built using React, Supabase, and Material UI, and it's suitable for anyone interested in stars, galaxies, and the universe.
