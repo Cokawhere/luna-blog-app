@@ -111,11 +111,11 @@ export default function Login() {
                         Login
                     </Button>
 
-                    <Box mt={2} mb={4} textAlign="center">
+                    {/* <Box mt={2} mb={4} textAlign="center">
                         <Link href="/signup" variant="body2" sx={{ fontWeight: 530, fontSize: 20 }}>
                             Don't have an account?
                         </Link>
-                    </Box>
+                    </Box> */}
                 </DemoPaper>
             </Box>
 
