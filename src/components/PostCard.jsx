@@ -64,20 +64,22 @@ export default function PostCard() {
                                 sx={{ width: 220, height: 180, mr: 2 }}
                             />
 
-                            <Box sx={{ flexGrow: 1 }}>
+                            <Box sx={{ width:"60%" }}>
                                 <Typography variant="h6" gutterBottom>
                                     {post.title}
                                 </Typography>
                                 <Box
                                     sx={{
                                         flexGrow: 1,
-                                        overflow: 'auto',
+                                        overflowY: 'auto',
+                                        overflowX:"hidden",
                                         maxHeight: 60,
                                         pr: 1,
                                         mb: 1,
+
                                     }}
                                 >
-                                    <Typography variant="body2">
+                                    <Typography variant="body2" sx={{width:"100%"}} >
                                         {post.content}
                                     </Typography>
                                 </Box>
