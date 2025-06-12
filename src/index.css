@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: none !important;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 0.855);
+}
+
+.custom-navbar {
+  background-color: rgba(255, 255, 255, 0.614) !important;
+  margin-top: 20px;
+  height: 65px;
+}
+
+.registerbutton {
+  background-color: rgba(244, 240, 240, 0.494) !important;
+  margin-right: 9px !important;
+  border-radius: 10px !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  color: black !important;
+}
+
+.loginbutton {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(74, 15, 212, 1) !important;
+  border-radius: 10px !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+}
+
+.postcards{
+  overflow:auto !important;
+  /* padding-bottom: 20px !important; */
+  margin: auto;
+}
