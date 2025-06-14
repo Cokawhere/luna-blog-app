@@ -37,7 +37,7 @@ export default function PostCard() {
         const { data, error } = await supabase
             .from('posts')
             .select(`*, users:authorid(name)`)
-            .order('createdat', { ascending: false });
+            ;
 
         if (!error) setPosts(data);
         else console.error(error.message);
