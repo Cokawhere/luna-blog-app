@@ -68,10 +68,9 @@ export default function Navbar() {
                 ) : (
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
                         <Avatar
-                            src={user?.avatar || ""}
                             sx={{ cursor: 'pointer', width: 36, height: 36 ,marginRight:2 }}
                         >
-                            {!user?.avatar && user?.email?.charAt(0).toUpperCase()}
+                            {user?.email?.charAt(0).toUpperCase()}
                         </Avatar>
                         <Button className="loginbutton" onClick={handleLogout}>
                             Logout

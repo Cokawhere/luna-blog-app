@@ -64,7 +64,7 @@ export default function CreatePostedit() {
                 setSnackbar({ open: true, message: error.message, severity: 'error' });
             } else {
                 setSnackbar({ open: true, message: 'Post updated successfully', severity: 'success' });
-                setTimeout(() => navigate('/'), 1500);
+                navigate('/');
             }
         } else {
             
@@ -80,7 +80,7 @@ export default function CreatePostedit() {
                 setSnackbar({ open: true, message: error.message, severity: 'error' });
             } else {
                 setSnackbar({ open: true, message: 'Post created successfully', severity: 'success' });
-                setTimeout(() => navigate('/'), 1500);
+                navigate('/');
             }
         }
     };
